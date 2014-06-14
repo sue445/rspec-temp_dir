@@ -4,6 +4,8 @@ create automatically temporary directory at each examples
 
 This is inspired by Junit [TemporaryFolder](http://junit.org/javadoc/4.9/org/junit/rules/TemporaryFolder.html)
 
+[![Build Status](https://travis-ci.org/sue445/rspec-temp_dir.svg)](https://travis-ci.org/sue445/rspec-temp_dir)
+
 ## Installation
 
 Add this line to your application's Gemfile:
