@@ -7,6 +7,7 @@ This is inspired by Junit [TemporaryFolder](http://junit.org/javadoc/4.9/org/jun
 [![Build Status](https://travis-ci.org/sue445/rspec-temp_dir.svg)](https://travis-ci.org/sue445/rspec-temp_dir)
 [![Code Climate](https://codeclimate.com/github/sue445/rspec-temp_dir.png)](https://codeclimate.com/github/sue445/rspec-temp_dir)
 [![Coverage Status](https://img.shields.io/coveralls/sue445/rspec-temp_dir.svg)](https://coveralls.io/r/sue445/rspec-temp_dir)
+[![Dependency Status](https://gemnasium.com/sue445/rspec-temp_dir.svg)](https://gemnasium.com/sue445/rspec-temp_dir)
 
 ## Installation
 
