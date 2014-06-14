@@ -9,6 +9,9 @@ This is inspired by Junit [TemporaryFolder](http://junit.org/javadoc/4.9/org/jun
 [![Coverage Status](https://img.shields.io/coveralls/sue445/rspec-temp_dir.svg)](https://coveralls.io/r/sue445/rspec-temp_dir)
 [![Dependency Status](https://gemnasium.com/sue445/rspec-temp_dir.svg)](https://gemnasium.com/sue445/rspec-temp_dir)
 
+## Requirements
+* ruby 1.9+
+
 ## Installation
 
 Add this line to your application's Gemfile:
