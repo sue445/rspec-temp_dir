@@ -11,7 +11,8 @@ This is inspired by Junit [TemporaryFolder](http://junit.org/javadoc/4.9/org/jun
 [![Dependency Status](https://gemnasium.com/sue445/rspec-temp_dir.svg)](https://gemnasium.com/sue445/rspec-temp_dir)
 
 ## Requirements
-* ruby 1.9+
+* ruby 1.9.3, 2.x
+* rspec 2.x, 3.0.0
 
 ## Installation
 
