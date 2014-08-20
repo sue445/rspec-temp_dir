@@ -52,6 +52,19 @@ describe "uses temp dir" do
 end
 ```
 
+## Changelog
+### master
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.2...master)
+
+### v0.0.2
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.1...v0.0.2)
+
+* bugfix: raise error when padrino and rspec3+
+  * https://github.com/sue445/rspec-temp_dir/pull/1
+
+### v0.0.1
+* first release
+
 ## Contributing
 
 1. Fork it ( https://github.com/sue445/rspec-temp_dir/fork )
