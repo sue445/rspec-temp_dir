@@ -29,6 +29,7 @@ Or install it yourself as:
     $ gem install rspec-temp_dir
 
 ## Usage
+When use `include_context "uses temp dir"` , create automatically and can use `temp_dir`
 
 ```ruby
 require 'rspec/temp_dir'
