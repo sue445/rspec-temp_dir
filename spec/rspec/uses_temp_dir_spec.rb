@@ -14,4 +14,11 @@ describe "uses temp dir" do
 
     expect(File.read(temp_file)).to eq "foo"
   end
+
+  describe "#temp_dir_path" do
+    subject{ temp_dir_path }
+
+    it { should be_an_instance_of Pathname }
+    it { should be_exist }
+  end
 end

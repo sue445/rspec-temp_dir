@@ -10,4 +10,8 @@ require "rspec"
   end
 
   attr_reader :temp_dir
+
+  def temp_dir_path
+    Pathname(temp_dir)
+  end
 end

@@ -50,12 +50,25 @@ describe "uses temp dir" do
 
     expect(File.read(temp_file)).to eq "foo"
   end
+
+  describe "#temp_dir_path" do
+    subject{ temp_dir_path }
+
+    it { should be_an_instance_of Pathname }
+    it { should be_exist }
+  end
 end
 ```
 
 ## Changelog
 ### master
-[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.2...master)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.3...master)
+
+### v0.0.3
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.2...v0.0.3)
+
+* support `temp_dir_path`
+  * https://github.com/sue445/rspec-temp_dir/pull/2g 
 
 ### v0.0.2
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.1...v0.0.2)
