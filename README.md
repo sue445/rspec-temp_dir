@@ -68,6 +68,7 @@ end
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.2...v0.0.3)
 
 * support `temp_dir_path`
+  * https://github.com/sue445/rspec-temp_dir/pull/2g 
 
 ### v0.0.2
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.1...v0.0.2)
