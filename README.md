@@ -12,7 +12,7 @@ This is inspired by Junit [TemporaryFolder](http://junit.org/javadoc/4.9/org/jun
 
 ## Requirements
 * ruby 1.9.3, 2.x
-* rspec 2.x, 3.0.0
+* rspec 2.x, 3.0.0+
 
 ## Installation
 
