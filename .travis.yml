@@ -1,8 +1,10 @@
 language: ruby
 rvm:
-- 1.9.3
-- 2.0.0
-- 2.1.2
+- 1.9
+- 2.0
+- 2.1
+- 2.2
+- ruby-head
 gemfile:
 - gemfiles/rspec2.gemfile
 - gemfiles/rspec3.gemfile
@@ -18,3 +20,7 @@ notifications:
   email: false
   slack:
     secure: FWlvqeogBihUPkAQh/2t9ajZXFEe6CXMxcHeH9uY/7GPPBX0e4gUf4RU0xt7Ep3eloa1dtYIGj4UCcE5wZGG6oDdXVTGCp+NDdfKcBCjHyncbynS475m8N4oGTyNJ7LiS7ksL1vjdixO+pJb+EZYHR+RI86M2aaaLRhQ8feOVCU=
+matrix:
+  allow_failures:
+  - rvm: 2.2
+  - rvm: ruby-head
