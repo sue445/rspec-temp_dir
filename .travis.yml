@@ -7,8 +7,9 @@ gemfile:
 - gemfiles/rspec2.gemfile
 - gemfiles/rspec3.gemfile
 bundler_args: "--jobs=2"
-script: CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900
-  bundle exec rspec
+before_script:
+- export CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900
+script: bundle exec rspec
 branches:
   only:
   - master
