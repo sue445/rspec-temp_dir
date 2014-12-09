@@ -1,15 +1,26 @@
 language: ruby
 rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.1.2
+- 1.9
+- 2.0
+- 2.1
+- 2.2
+- ruby-head
 gemfile:
-  - gemfiles/rspec2.gemfile
-  - gemfiles/rspec3.gemfile
-bundler_args: --jobs=2
-script: CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900 bundle exec rspec
+- gemfiles/rspec2.gemfile
+- gemfiles/rspec3.gemfile
+bundler_args: "--jobs=2"
+before_script:
+- export CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900
+- export COVERAGE=true
+script: bundle exec rspec
 branches:
   only:
-    - master
+  - master
 notifications:
   email: false
+  slack:
+    secure: FWlvqeogBihUPkAQh/2t9ajZXFEe6CXMxcHeH9uY/7GPPBX0e4gUf4RU0xt7Ep3eloa1dtYIGj4UCcE5wZGG6oDdXVTGCp+NDdfKcBCjHyncbynS475m8N4oGTyNJ7LiS7ksL1vjdixO+pJb+EZYHR+RI86M2aaaLRhQ8feOVCU=
+matrix:
+  allow_failures:
+  - rvm: 2.2
+  - rvm: ruby-head
