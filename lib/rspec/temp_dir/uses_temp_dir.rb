@@ -1,5 +1,6 @@
 require "tmpdir"
 require "rspec"
+require 'pathname'
 
 (RSpec.respond_to?(:shared_context) ? RSpec : Object).shared_context "uses temp dir" do
   around do |example|
