@@ -25,3 +25,4 @@ matrix:
   allow_failures:
   - rvm: ruby-head
   - gemfile: gemfiles/rspec2.gemfile
+sudo: false
