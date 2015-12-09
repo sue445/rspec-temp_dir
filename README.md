@@ -2,7 +2,7 @@
 
 create automatically temporary directory at each examples
 
-This is inspired by Junit [TemporaryFolder](http://junit.org/javadoc/4.9/org/junit/rules/TemporaryFolder.html)
+This is inspired by Junit [TemporaryFolder](http://junit.org/apidocs/org/junit/rules/TemporaryFolder.html)
 
 [![Gem Version](https://badge.fury.io/rb/rspec-temp_dir.svg)](http://badge.fury.io/rb/rspec-temp_dir)
 [![Build Status](https://travis-ci.org/sue445/rspec-temp_dir.svg)](https://travis-ci.org/sue445/rspec-temp_dir)
