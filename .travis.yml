@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-- 1.9
 - 2.0
 - 2.1
 - 2.2
+- 2.3.2
 - ruby-head
 gemfile:
 - gemfiles/rspec2.gemfile
@@ -13,7 +13,9 @@ bundler_args: "--jobs=2"
 before_script:
 - export CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900
 - export COVERAGE=true
-script: bundle exec rspec
+script:
+- bundle exec rspec
+- bundle exec codeclimate-test-reporter
 branches:
   only:
   - master
