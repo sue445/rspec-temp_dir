@@ -5,9 +5,6 @@ rvm:
 - 2.2
 - 2.3.2
 - ruby-head
-gemfile:
-- gemfiles/rspec2.gemfile
-- gemfiles/rspec3.gemfile
 cache: bundler
 bundler_args: "--jobs=2"
 before_script:
@@ -26,5 +23,4 @@ notifications:
 matrix:
   allow_failures:
   - rvm: ruby-head
-  - gemfile: gemfiles/rspec2.gemfile
 sudo: false
