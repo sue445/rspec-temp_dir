@@ -1,6 +1,14 @@
 # Changelog
 ## master
-[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.4...master)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.0.0...master)
+
+## v1.0.0
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.4...v1.0.0)
+
+* Drop support ruby 1.9
+  * https://github.com/sue445/rspec-temp_dir/pull/10
+* Drop support rspec 2.x
+  * https://github.com/sue445/rspec-temp_dir/pull/9
 
 ## v0.0.4
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v0.0.3...v0.0.4)
