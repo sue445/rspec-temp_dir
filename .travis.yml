@@ -1,31 +1,31 @@
 language: ruby
 rvm:
-- 2.0
-- 2.1
-- 2.2
-- 2.3
-- 2.4
-- 2.5
-- ruby-head
+  - 2.0
+  - 2.1
+  - 2.2
+  - 2.3
+  - 2.4
+  - 2.5
+  - ruby-head
 cache: bundler
 bundler_args: "--jobs=2"
 before_install:
-- gem update --system --no-document
-- gem install bundler --no-document
+  - gem update --system --no-document
+  - gem install bundler --no-document
 before_script:
-- export CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900
-- export COVERAGE=true
+  - export CODECLIMATE_REPO_TOKEN=329887587f83c7ce5a1ab75f426c00830ba5ffac290c90bc486713c88baea900
+  - export COVERAGE=true
 script:
-- bundle exec rspec
-- bundle exec codeclimate-test-reporter
+  - bundle exec rspec
+  - bundle exec codeclimate-test-reporter
 branches:
   only:
-  - master
+    - master
 notifications:
   email: false
   slack:
     secure: FWlvqeogBihUPkAQh/2t9ajZXFEe6CXMxcHeH9uY/7GPPBX0e4gUf4RU0xt7Ep3eloa1dtYIGj4UCcE5wZGG6oDdXVTGCp+NDdfKcBCjHyncbynS475m8N4oGTyNJ7LiS7ksL1vjdixO+pJb+EZYHR+RI86M2aaaLRhQ8feOVCU=
 matrix:
   allow_failures:
-  - rvm: ruby-head
+    - rvm: ruby-head
 sudo: false
