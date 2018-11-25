@@ -57,6 +57,15 @@ describe "uses temp dir" do
     it { should be_exist }
   end
 end
+
+describe "within temp dir" do
+  # create temp dir and cd to temp dir
+  include_context "within temp dir"
+
+  it "within temp dir" do
+    expect(Dir.pwd).to eq temp_dir
+  end
+end
 ```
 
 ## Contributing
