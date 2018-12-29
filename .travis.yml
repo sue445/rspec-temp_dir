@@ -30,6 +30,11 @@ notifications:
 matrix:
   allow_failures:
     - rvm: ruby-head
+  include:
+    - rvm: 2.6
+      env: RUBYOPT="--jit"
+    - rvm: ruby-head
+      env: RUBYOPT="--jit"
 sudo: false
 env:
   global:
