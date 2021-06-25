@@ -12,3 +12,8 @@ if Gem::Version.create(RUBY_VERSION) < Gem::Version.create("2.4.0")
   # NOTE: simplecov-html v0.11.0+ requires Ruby ~> 2.4
   gem "simplecov-html", "< 0.11.0"
 end
+
+if Gem::Version.create(RUBY_VERSION) < Gem::Version.create("2.5.0")
+  # NOTE: docile v1.4.0+ requires Ruby 2.5.0+
+  gem "docile", "< 1.4.0"
+end
