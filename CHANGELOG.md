@@ -1,6 +1,12 @@
 # Changelog
 ## master
-[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.0...master)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.1...master)
+
+## v1.1.1
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.0...v1.1.1)
+
+* Enable MFA requirement for gem releasing
+  * https://github.com/sue445/rspec-temp_dir/pull/35
 
 ## v1.1.0
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.0.0...v1.1.0)
