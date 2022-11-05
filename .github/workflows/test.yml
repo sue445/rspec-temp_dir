@@ -47,20 +47,16 @@ jobs:
         with:
           codeclimate-test-reporter-id: ${{ secrets.CC_TEST_REPORTER_ID }}
           command: before-build
-        if: matrix.ruby >= '2.4'
         continue-on-error: true
 
-      - name: Run test
-        run: |
-          set -xe
-          bundle exec rspec
+      - run: bundle exec rspec
 
       - name: Teardown Code Climate Test Reporter
         uses: aktions/codeclimate-test-reporter@v1
         with:
           codeclimate-test-reporter-id: ${{ secrets.CC_TEST_REPORTER_ID }}
           command: after-build
-        if: matrix.ruby >= '2.4' && always()
+        if: always()
         continue-on-error: true
 
       - name: Slack Notification (not success)
