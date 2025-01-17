@@ -5,7 +5,7 @@ create automatically temporary directory at each examples
 This is inspired by Junit [TemporaryFolder](http://junit.org/junit4/javadoc/4.12/org/junit/rules/TemporaryFolder.html)
 
 [![Gem Version](https://badge.fury.io/rb/rspec-temp_dir.svg)](http://badge.fury.io/rb/rspec-temp_dir)
-[![Build Status](https://github.com/sue445/rspec-temp_dir/workflows/test/badge.svg?branch=master)](https://github.com/sue445/rspec-temp_dir/actions?query=workflow%3Atest)
+[![test](https://github.com/sue445/rspec-temp_dir/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/rspec-temp_dir/actions/workflows/test.yml)
 [![Code Climate](https://codeclimate.com/github/sue445/rspec-temp_dir.png)](https://codeclimate.com/github/sue445/rspec-temp_dir)
 [![Coverage Status](https://img.shields.io/coveralls/sue445/rspec-temp_dir.svg)](https://coveralls.io/r/sue445/rspec-temp_dir)
 
