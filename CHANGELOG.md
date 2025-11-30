@@ -1,6 +1,12 @@
 # Changelog
 ## master
-[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.1...master)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.2...master)
+
+## [v1.1.2](https://github.com/sue445/rspec-temp_dir/releases/tag/v1.1.2)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.1...v1.1.2)
+
+* Release gem from GitHub Actions
+  * https://github.com/sue445/rspec-temp_dir/pull/63
 
 ## v1.1.1
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.0...v1.1.1)
