@@ -6,7 +6,7 @@ This is inspired by Junit [TemporaryFolder](http://junit.org/junit4/javadoc/4.12
 
 [![Gem Version](https://badge.fury.io/rb/rspec-temp_dir.svg)](http://badge.fury.io/rb/rspec-temp_dir)
 [![test](https://github.com/sue445/rspec-temp_dir/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/rspec-temp_dir/actions/workflows/test.yml)
-[![Code Climate](https://codeclimate.com/github/sue445/rspec-temp_dir.png)](https://codeclimate.com/github/sue445/rspec-temp_dir)
+[![Maintainability](https://qlty.sh/gh/sue445/projects/rspec-temp_dir/maintainability.svg)](https://qlty.sh/gh/sue445/projects/rspec-temp_dir)
 [![Coverage Status](https://img.shields.io/coveralls/sue445/rspec-temp_dir.svg)](https://coveralls.io/r/sue445/rspec-temp_dir)
 
 ## Requirements
