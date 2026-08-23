@@ -1,6 +1,12 @@
 # Changelog
 ## master
-[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.2...master)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.3...master)
+
+## [v1.1.3](https://github.com/sue445/rspec-temp_dir/releases/tag/v1.1.3)
+[full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.2...v1.1.3)
+
+* Migrate release_gem workflow to sue445/workflows (Also testing the gem release)
+  * https://github.com/sue445/rspec-temp_dir/pull/103
 
 ## [v1.1.2](https://github.com/sue445/rspec-temp_dir/releases/tag/v1.1.2)
 [full changelog](http://github.com/sue445/rspec-temp_dir/compare/v1.1.1...v1.1.2)
